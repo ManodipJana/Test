@@ -10,6 +10,7 @@ public class JSONReadExample
 { 
     public static void main(String[] args) throws Exception  
     { 
+    	System.out.println("Manodip");
         // parsing file "JSONExample.json" 
         Object obj = new JSONParser().parse(new FileReader("D:\\plc.json")); 
           
